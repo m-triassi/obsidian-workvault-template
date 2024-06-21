@@ -32,7 +32,7 @@ var import_obsidian = require("obsidian");
 // src/setChecklistItems.ts
 var CHECK_REGEX = " \\[.{1}\\])";
 var UNCHECKED_REGEX = " \\[ \\])";
-var LIST_SYMBOLS = ["-", "*", "+"];
+var LIST_SYMBOLS = ["-", "*", "+", "."];
 function setChecklistItems(content, checked = false) {
   const newValue = checked ? "[x]" : "[ ]";
   const checkboxRegex = checked ? UNCHECKED_REGEX : CHECK_REGEX;
