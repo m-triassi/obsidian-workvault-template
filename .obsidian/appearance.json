@@ -4,6 +4,11 @@
   "theme": "obsidian",
   "baseFontSize": 15,
   "textFontFamily": "",
-  "nativeMenus": true,
-  "translucency": false
+  "nativeMenus": false,
+  "translucency": false,
+  "enabledCssSnippets": [
+    "center-img",
+    "erd-color",
+    "floating-search-bar"
+  ]
 }
