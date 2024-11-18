@@ -1,0 +1,6 @@
+.er.attributeBoxOdd {
+  fill: var(--background-primary) !important;
+}
+.er.attributeBoxEven {
+  fill: var(--background-secondary) !important;
+}
