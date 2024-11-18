@@ -4,5 +4,7 @@
   "obsidian-kanban",
   "obsidian-style-settings",
   "obsidian-checklist-reset",
-  "templater-obsidian"
+  "templater-obsidian",
+  "note-toolbar",
+  "obsidian-hotkeys-for-templates"
 ]

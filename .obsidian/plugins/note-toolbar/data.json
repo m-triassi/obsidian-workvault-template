@@ -1,0 +1,310 @@
+{
+  "export": {
+    "includeIcons": true,
+    "replaceVars": true,
+    "useDataEls": true,
+    "useIds": true
+  },
+  "folderMappings": [
+    {
+      "folder": "Daily Notes",
+      "toolbar": "96c59efb-fd21-44ae-8cd8-327c23fd05c0"
+    }
+  ],
+  "icon": "circle-ellipsis",
+  "ribbonAction": "toolbar",
+  "showEditInFabMenu": false,
+  "toolbarProp": "notetoolbar",
+  "toolbars": [
+    {
+      "defaultStyles": [
+        "border",
+        "even",
+        "sticky"
+      ],
+      "items": [
+        {
+          "label": "Previous",
+          "icon": "lucide-arrow-left",
+          "link": "Daily notes: Open previous daily note",
+          "linkAttr": {
+            "commandId": "daily-notes:goto-prev",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Go back one day",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "uuid": "db9a5d7c-ea46-4cd9-bd35-e8c05402d467"
+        },
+        {
+          "label": "Next",
+          "icon": "lucide-arrow-right",
+          "link": "Daily notes: Open next daily note",
+          "linkAttr": {
+            "commandId": "daily-notes:goto-next",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Go to the next day",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "uuid": "1ce7904f-08d3-4f9b-a68b-c7ed2bb925b0"
+        },
+        {
+          "label": "Today",
+          "icon": "lucide-calendar",
+          "link": "Daily notes: Open today's daily note",
+          "linkAttr": {
+            "commandId": "daily-notes",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Open today's daily note",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "uuid": "f1168a1b-1acc-4156-89de-1fb1f05e092c"
+        },
+        {
+          "label": "Timestamp",
+          "icon": "lucide-file-clock",
+          "link": "Templates: Insert current time",
+          "linkAttr": {
+            "commandId": "insert-current-time",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Print the current time",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "uuid": "6c1bb9c4-b9da-4181-98d8-9a2a843140df"
+        }
+      ],
+      "mobileStyles": [],
+      "name": "Daily Notes Nav",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "props"
+          }
+        }
+      },
+      "updated": "2024-07-22T23:31:47.078Z",
+      "uuid": "96c59efb-fd21-44ae-8cd8-327c23fd05c0"
+    },
+    {
+      "defaultStyles": [
+        "border",
+        "even",
+        "sticky"
+      ],
+      "items": [
+        {
+          "label": "New Block",
+          "icon": "lucide-blocks",
+          "link": "Hotkeys for templates: Insert: Scratch Block",
+          "linkAttr": {
+            "commandId": "obsidian-hotkeys-for-templates:Scratch Block.md",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "uuid": "66d8dc15-a4d5-46f1-8a50-d60bbfe663b9"
+        },
+        {
+          "label": "Timestamp",
+          "icon": "lucide-timer",
+          "link": "Templates: Insert current time",
+          "linkAttr": {
+            "commandId": "insert-current-time",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "uuid": "8525c593-28b6-420f-a31f-9cd52df3b2d9"
+        }
+      ],
+      "mobileStyles": [],
+      "name": "Scratch Bar",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "props"
+          }
+        }
+      },
+      "updated": "2024-07-31T00:23:09.687Z",
+      "uuid": "91dbf8f8-ccff-4e13-addd-148b3a9cba49"
+    }
+  ],
+  "version": 20240727.1,
+  "whatsnew_version": 1.14
+}
