@@ -19,6 +19,12 @@ SORT contains(text, "#LP") ASC, file.ctime ASC
 
 - 
 
+### Needs Processing
+```dataview
+LIST from "Daily Notes" 
+WHERE should-process = "true" AND processed = "false"
+```
+
 ## Legend
 ### Tags
 #maintenance ➡️ Maintenance: Tasks or information relating to maintenance of servers
